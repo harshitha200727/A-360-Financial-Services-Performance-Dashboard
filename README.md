@@ -2,17 +2,16 @@
 An end-to-end Power BI dashboard that gives banking leadership a single, interactive view of financial health — spanning executive KPIs, customer and account behaviour, loan portfolio risk, and transaction and branch performance.
 
 # 📑 Table of Contents
-Overview
-Business Problem
-Dataset
-Dashboard Preview
-Dashboard Pages
-Key Insights
-Measures Used
-Tools & Skills
-Repository Structure
-How to Use
-Author
+1. Overview
+2. Business Problem
+3. Dataset
+4. Dashboard Preview
+5. Dashboard Pages
+6. Key Insights
+7. Measures Used
+8. Tools & Skills
+9. Repository Structure
+
 # 📌 Overview
 
 BankPulse consolidates data on 720 customers, ~2,000 accounts, 330 loans, and 50,000 transactions across ~50 branches into one drill-down-friendly Power BI report. It's built to answer four questions a bank's leadership and operations teams ask every week: How healthy is the balance sheet overall? Who are our customers and how do their accounts behave? How is the loan book performing, and where is the risk? Where and how is transaction activity happening across the branch network?
