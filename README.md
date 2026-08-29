@@ -68,7 +68,7 @@ At least one account carries a negative balance (-486.68), flagging a potential 
 9. Average Transaction Amount = AVERAGE(Transactions[Amount])
 10. Total Transactions = COUNTROWS(Transactions)
 
-#🛠️ Tools & Skills
+# 🛠️ Tools & Skills
 1. Power BI — data modeling, relationships across 4 tables, DAX measures, interactive visuals
 2. DAX — aggregations, CALCULATE with filter context, ratio/percentage measures
 3. Data Visualization — KPI cards, donut charts, clustered bar charts, line/trend charts, filled maps, matrix tables
