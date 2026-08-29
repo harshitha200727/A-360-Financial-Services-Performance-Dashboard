@@ -57,19 +57,19 @@ Transaction volume is evenly spread across ~50 branches, concentrated in North A
 At least one account carries a negative balance (-486.68), flagging a potential overdraft/risk case
 # 🧮 Measures Used
 
-Total Balance = SUM(Accounts[Balance])
-Total Customers = DISTINCTCOUNT(Customers[CustomerID])
-Total Accounts = DISTINCTCOUNT(Accounts[AccountID])
-Total Loan Principal = SUM(Loans[LoanPrincipal])
-Total Transaction Volume = SUM(Transactions[Amount])
-Average Interest Rate = AVERAGE(Loans[InterestRate])
-Overdue Loan Principal = CALCULATE(SUM(Loans[LoanPrincipal]), Loans[Status] = "Overdue")
-Total Transaction Value = SUM(Transactions[Amount])
-Average Transaction Amount = AVERAGE(Transactions[Amount])
-Total Transactions = COUNTROWS(Transactions)
+1. Total Balance = SUM(Accounts[Balance])
+2. Total Customers = DISTINCTCOUNT(Customers[CustomerID])
+3. Total Accounts = DISTINCTCOUNT(Accounts[AccountID])
+4. Total Loan Principal = SUM(Loans[LoanPrincipal])
+5. Total Transaction Volume = SUM(Transactions[Amount])
+6. Average Interest Rate = AVERAGE(Loans[InterestRate])
+7. Overdue Loan Principal = CALCULATE(SUM(Loans[LoanPrincipal]), Loans[Status] = "Overdue")
+8. Total Transaction Value = SUM(Transactions[Amount])
+9. Average Transaction Amount = AVERAGE(Transactions[Amount])
+10. Total Transactions = COUNTROWS(Transactions)
 
 #🛠️ Tools & Skills
-Power BI — data modeling, relationships across 4 tables, DAX measures, interactive visuals
-DAX — aggregations, CALCULATE with filter context, ratio/percentage measures
-Data Visualization — KPI cards, donut charts, clustered bar charts, line/trend charts, filled maps, matrix tables
-Dashboard Design — multi-page navigation, consistent slicer panels, executive-to-detail drill path
+1. Power BI — data modeling, relationships across 4 tables, DAX measures, interactive visuals
+2. DAX — aggregations, CALCULATE with filter context, ratio/percentage measures
+3. Data Visualization — KPI cards, donut charts, clustered bar charts, line/trend charts, filled maps, matrix tables
+4. Dashboard Design — multi-page navigation, consistent slicer panels, executive-to-detail drill path
