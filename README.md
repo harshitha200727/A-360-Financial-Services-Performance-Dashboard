@@ -24,6 +24,15 @@ Banking data is typically scattered across separate systems for accounts, loans,
 
 The report is built on four related tables: Customers, Accounts, Loans, and Transactions, linked by customer and account IDs. Fields include account type and status, loan principal, interest rate and status, transaction type and amount, branch, and country, spanning 2018–2025.
 
+# Dashboard Preview 
+1. Executive Overview 
+<img width="1139" height="636" alt="image" src="https://github.com/user-attachments/assets/045455b6-6284-4436-915e-3d83112090e7" />
+2. Customer & Account Analysis
+<img width="1145" height="640" alt="image" src="https://github.com/user-attachments/assets/2b8bdb96-f563-4044-a89f-bb44133f8d60" />
+3. Loan Analysis 
+<img width="1139" height="639" alt="image" src="https://github.com/user-attachments/assets/60973bbd-0f58-4742-b9fe-f0f4d3892c20" />
+4. Transaction & Branches 
+<img width="1139" height="635" alt="image" src="https://github.com/user-attachments/assets/411df748-ee37-435b-801e-ffe238fb1a54" />
 
 # 📊 Dashboard Pages
 
@@ -55,7 +64,8 @@ Overdue Loan Principal = CALCULATE(SUM(Loans[LoanPrincipal]), Loans[Status] = "O
 Total Transaction Value = SUM(Transactions[Amount])
 Average Transaction Amount = AVERAGE(Transactions[Amount])
 Total Transactions = COUNTROWS(Transactions)
-🛠️ Tools & Skills
+
+#🛠️ Tools & Skills
 Power BI — data modeling, relationships across 4 tables, DAX measures, interactive visuals
 DAX — aggregations, CALCULATE with filter context, ratio/percentage measures
 Data Visualization — KPI cards, donut charts, clustered bar charts, line/trend charts, filled maps, matrix tables
